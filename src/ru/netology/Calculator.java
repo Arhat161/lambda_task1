@@ -11,7 +11,7 @@ public class Calculator {
     //BinaryOperator<Integer> devide = (x, y) -> x / y; // A 'devide by zero' error may occur!
     BinaryOperator<Integer> devide = (x, y) -> {
         int res = 0;
-        if(y != 0) res = x / y;
+        if (y != 0) res = x / y;
         return res;
     };
 
